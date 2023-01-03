@@ -1,3 +1,8 @@
+body, html, main{
+    height: 100%;
+    margin: 0;
+}
+
 header { 
     padding: 5px;
     background-color: rgba(0, 0, 0, 0);
@@ -17,5 +22,16 @@ nav a {
 
 #landing{
     background-image: url("media/greycity2.png");
-    background-size: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
+#landing h1{
+    text-align: center;
+    padding-top: 25%;
+    color: white
+}
+
