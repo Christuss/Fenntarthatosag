@@ -11,6 +11,13 @@ nav ul {
 nav li {
     list-style-type: none;
 }
-nav a {
+nav a:link, a:visited {
     text-decoration: none;
+    padding: 15px;
+    transition: all .5s;
+}
+nav a:hover, a:active{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
