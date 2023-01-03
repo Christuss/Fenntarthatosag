@@ -1,0 +1,15 @@
+header {
+    background-color: rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 30fr 1fr;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+}
+nav li {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+}
