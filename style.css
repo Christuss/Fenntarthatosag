@@ -1,4 +1,5 @@
-header {
+header { 
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0);
     display: grid;
     grid-template-columns: 1fr 30fr 1fr;
