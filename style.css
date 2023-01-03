@@ -13,3 +13,8 @@ nav li {
 nav a {
     text-decoration: none;
 }
+
+#landing{
+    background-image: url("media/greycity2.png");
+    background-size: 100%;
+}
