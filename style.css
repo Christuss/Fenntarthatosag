@@ -21,3 +21,8 @@ nav a:hover, a:active{
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
+
+#landing{
+    background-image: url("media/greycity2.png");
+    background-size: 100%;
+}
