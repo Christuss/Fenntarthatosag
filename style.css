@@ -3,8 +3,6 @@ main, body, html{
     padding: 0;
 }
 
-
-
 header { 
     padding: 5px;
     background-color: rgba(0, 0, 0, 0);
@@ -12,7 +10,6 @@ header {
     grid-template-columns: 1fr 30fr 1fr;
     z-index: 1000;
     position: absolute;
-    
 }
 
 body{
@@ -30,11 +27,27 @@ nav a:link, a:visited {
     text-decoration: none;
     padding: 15px;
     transition: all .5s;
+    color: black;
+    display: inline-block;
 }
 nav a:hover, a:active{
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    color: black;
+    backdrop-filter: blur(5px);
+}   
+header button {    
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 15px;
+    transition: all .5s;
+}
+header button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
 }
 #logo {
     min-width: 50px;
