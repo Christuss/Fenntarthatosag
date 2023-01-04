@@ -1,7 +1,6 @@
 main, body, html{
     margin: 0;
     padding: 0;
-    
 }
 
 header { 
@@ -27,7 +26,12 @@ nav a:hover, a:active{
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
-
+#logo {
+    min-width: 50px;
+}
+article{ 
+    padding-top: 100px;
+}
 .landing{
     position: relative;
     width: 100%;
@@ -39,6 +43,7 @@ nav a:hover, a:active{
     position:relative;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 #greeenpng{
@@ -46,4 +51,5 @@ nav a:hover, a:active{
     top: 0;
     left:0;
     clip: rect(0px,976px,1080px,0px);
+    width: 100%;
 }
