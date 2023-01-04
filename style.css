@@ -1,6 +1,7 @@
-body, html, main{
-    height: 100%;
+main, body, html{
     margin: 0;
+    padding: 0;
+    
 }
 
 header { 
@@ -27,18 +28,22 @@ nav a:hover, a:active{
     border-radius: 20px;
 }
 
-#landing{
-    background-image: url("media/greycity2.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.landing{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    cursor: default;
 }
 
-#landing h1{
-    text-align: center;
-    padding-top: 25%;
-    color: white
+#graypng{
+    position:relative;
+    top: 0;
+    left: 0;
 }
 
+#greeenpng{
+    position: absolute;
+    top: 0;
+    left:0;
+    clip: rect(0px,976px,1080px,0px);
+}

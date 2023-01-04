@@ -26,7 +26,10 @@
         <button>dark <br> mode</button>
     </header>
     <main>
-        <div id="landing"><h1>A jövő a te kezedben.</h1></div>
+        <div class="landing" onmousemove="sliderMove(event)">  
+            <img id="graypng" src="media/gray1green1.png" alt="graypng">
+            <img id="greeenpng" src="media/green1.png" alt="greeenpng">
+        </div>
         <article><p>lorem*8</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempore dolore adipisci, hic voluptatibus placeat ullam ducimus aspernatur iusto culpa unde quas iure officia rem nisi. Numquam blanditiis eius sint?
         Omnis totam facere quae commodi similique sequi sapiente eligendi laborum animi earum quia ea iure magni cum blanditiis nihil porro, architecto id dolore unde obcaecati. Quibusdam officiis est placeat repellat.
@@ -62,5 +65,13 @@
         Perferendis, tempore aliquid! Veniam odit nostrum officia voluptatem, consequatur labore aspernatur eaque quia repellat consectetur quisquam expedita ipsa facilis quam ipsam cumque asperiores quis voluptas illum culpa debitis, adipisci sit.</p>
     </article>
     </main>
+    <script>
+        function sliderMove(event) {
+            var currentposition = event.clientX;
+            var finalvalue = "rect(0px, "+currentposition.toString()+"px,1080px,0px)";
+    
+            document.getElementById("greeenpng").style.clip = finalvalue;
+            }
+    </script>
 </body>
 </html>
