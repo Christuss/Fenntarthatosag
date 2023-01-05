@@ -3,6 +3,8 @@ main, body, html{
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 header { 
     padding: 5px;
     background-color: rgba(0, 0, 0, 0);
@@ -16,11 +18,13 @@ body{
     position: relative;
     color: #f4e285;
     background-color: #5b8e7d;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
+    font-weight: bold;
 }
 nav li {
     list-style-type: none;
