@@ -14,6 +14,8 @@ header {
 
 body{
     position: relative;
+    color: #f4e285;
+    background-color: #5b8e7d;
 }
 
 nav ul {
@@ -76,3 +78,65 @@ article{
     clip: rect(0px,976px,1080px,0px);
     width: 100%;
 }
+
+#definition{
+    padding: 20vh;
+    text-align: center;
+}
+
+#definition svg{
+    padding: 10vh;
+    height: 30vh;
+}
+
+
+
+#definition:hover #windmill{
+    transform-box: fill-box;
+    transform-origin: 49% 65%;
+    animation: spin 5s linear infinite;
+    
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#principles{
+    display: grid;
+    grid-template-areas:
+    "a b b"
+    "a c c"
+    "a d d";
+    margin-right: 10vh;
+    margin-left: 10vh;
+}
+
+
+
+#p1{
+    grid-area: a;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#p2{
+    border-top: 1px solid #f4a259;
+    border-bottom: 1px solid #f4a259;
+    grid-area: b;
+    margin-top: 5vh;
+}
+
+#p3{
+    border-top: 1px solid #f4a259;
+    border-bottom: 1px solid #f4a259;
+    grid-area: c;
+}
+
+#p4{
+    border-top: 1px solid #f4a259;
+    border-bottom: 1px solid #f4a259;
+    grid-area: d;
+}
+
