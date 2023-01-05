@@ -17,8 +17,8 @@ header {
 
 body{
     position: relative;
-    color: #f4e285;
-    background-color: #5b8e7d;
+    color: #F6BD60;
+    background-color: #4F6D7A;
     font-family: 'Josefin Sans', sans-serif;
    
 }
@@ -136,6 +136,7 @@ p{
     grid-area: a;
     padding-left: 5vh;
     padding-right: 5vh;
+    text-align: center;
 }
 
 #p2{
@@ -179,7 +180,7 @@ iframe {
     margin-left: 25%;
     border: 400px solid;
     border-radius: 47% 53% 53% 47% / 65% 46% 54% 35%;
-    border-color: #3a5a4f;
+    border-color: #5CB270;
     width: 0;
     height: 0;
     position: absolute;
