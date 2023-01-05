@@ -158,3 +158,30 @@ p{
     margin-right: 5vh;
 }
 
+#ytplayer {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    position: relative;
+}
+iframe {
+    border-radius: 20px;
+    border: none;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 37%;
+    z-index: 1000;
+}
+#shape {
+    margin-left: 25%;
+    border: 400px solid;
+    border-radius: 47% 53% 53% 47% / 65% 46% 54% 35%;
+    border-color: #3a5a4f;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50px;
+    left: -300px;
+    animation: spin 20s linear infinite;
+}
