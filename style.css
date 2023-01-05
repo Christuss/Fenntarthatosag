@@ -79,13 +79,25 @@ article{
     position: absolute;
     top: 0;
     left:0;
-    clip: rect(0px,976px,1080px,0px);
+    clip: rect(0px,966px,1080px,0px);
     width: 100%;
 }
 
 #definition{
     padding: 20vh;
     text-align: center;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.5em;
 }
 
 #definition svg{
@@ -99,7 +111,6 @@ article{
     transform-box: fill-box;
     transform-origin: 49% 65%;
     animation: spin 5s linear infinite;
-    
 }
 
 @keyframes spin {
@@ -126,21 +137,24 @@ article{
 }
 
 #p2{
-    border-top: 1px solid #f4a259;
+    border-top: 2px solid #f4a259;
     border-bottom: 1px solid #f4a259;
     grid-area: b;
     margin-top: 5vh;
+    margin-right: 5vh;
 }
 
 #p3{
     border-top: 1px solid #f4a259;
     border-bottom: 1px solid #f4a259;
     grid-area: c;
+    margin-right: 5vh;
 }
 
 #p4{
     border-top: 1px solid #f4a259;
-    border-bottom: 1px solid #f4a259;
+    border-bottom: 2px solid #f4a259;
     grid-area: d;
+    margin-right: 5vh;
 }
 
