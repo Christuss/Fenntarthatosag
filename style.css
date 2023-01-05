@@ -1,6 +1,7 @@
 main, body, html{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
@@ -19,6 +20,7 @@ body{
     color: #f4e285;
     background-color: #5b8e7d;
     font-family: 'Josefin Sans', sans-serif;
+   
 }
 
 nav ul {
@@ -185,3 +187,30 @@ iframe {
     left: -300px;
     animation: spin 20s linear infinite;
 }
+
+#backtotop{
+    text-align: right;
+    font-weight: bold;
+    padding: 2em;
+    
+}
+
+#backttbtn{
+    height: 50px;
+    width: 50px;
+    background: url("https://img.icons8.com/ios/50/null/circled-up-2.png");
+    border: none;
+    margin: 0;
+    display: inline-block;
+}
+
+#backtotop a{
+    text-decoration: none;
+    padding-top: 15px;
+    display: block;
+}
+
+
+
+
+
