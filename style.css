@@ -196,7 +196,7 @@ iframe {
     padding-bottom: 0.5em;
 }
 
-#backtotop{
+/* #backtotop{
     text-align: right;
     font-weight: bold;
     padding: 2em;
@@ -216,7 +216,65 @@ iframe {
     text-decoration: none;
     padding-top: 15px;
     display: block;
+} */
+
+#galery{
+    position: relative;
+    margin-top: 40vh;
+    max-width: 800px;
+    max-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30vh;
+    overflow: hidden;
 }
+
+#galery_img_container{
+    position: relative;
+    
+}
+
+.galery_img{
+    width: 100%;
+}
+
+.galery_control{
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+
+#arrow_right, #arrow_left{
+    cursor:pointer;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+#arrow_left{
+    background: url("https://img.icons8.com/sf-regular/48/f4a259/chevron-left.png");
+    
+}
+
+#arrow_right{
+    right: 0;
+    position: absolute;
+    background-image: url("https://img.icons8.com/sf-regular/48/f4a259/chevron-right.png");
+}
+
+#arrow_left:hover{
+    background-image: url("media/chevron-left-filled.svg");
+    
+}
+
+#arrow_right:hover{
+    background-image: url("media/chevron-right-filled.svg");
+    mask-repeat: no-repeat;
+}
+
+
+
 @media screen and (max-width:800px) {
     body { 
         margin: auto;

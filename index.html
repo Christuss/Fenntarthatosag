@@ -1414,16 +1414,25 @@
             </div>
             <h2 id="videoszoveg">Valami szöveg a videóhoz:</h2>
             <div id="ytplayer">
-                <iframe src="https://www.youtube.com/watch?v=zx04Kl8y4dE" allowfullscreen>
+                <iframe src="https://www.youtube.com/watch?v=zx04Kl8y4dE" title="ytplayer" allowfullscreen>
                 </iframe>
                 <div id="shape"></div>
             </div>
-            
+
+            <div id="galery">
+                    <img id="img1" class="galery_img" src="media/gray1green1.png" alt="new1">
+                    <img id="img2" class="galery_img" src="media/green1.jpeg" alt="new2">
+                    <img id="img3" class="galery_img" src="media/greycity2.png" alt="new3">
+                <div class="galery_control">
+                    <div id="arrow_left" onclick="plusDivs(-1)"></div>
+                    <div id="arrow_right" onclick="plusDivs(1)"></div>
+                </div>
+            </div>
         </article>
-        <div id="backtotop">
+        <!-- <div id="backtotop">
             <a href="#">Vissza a tetejére</a></div>
             <button title="backttbtn" id="backttbtn" onclick="window.location.href='#'";></button>
-        </div>
+        </div> -->
     </main>
     <script>
         function sliderMove(event) {
@@ -1431,6 +1440,33 @@
             var finalvalue = "rect(0px, " + currentposition.toString() + "px,1080px,0px)";
 
             document.getElementById("greeenpng").style.clip = finalvalue;
+        }
+
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("galery_img");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+            
         }
     </script>
 </body>
