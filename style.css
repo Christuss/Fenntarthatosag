@@ -217,7 +217,61 @@ iframe {
     padding-top: 15px;
     display: block;
 }
-
+@media screen and (max-width:800px) {
+    body { 
+        margin: auto;
+        text-align: center;
+    }
+    .landing {
+        display: none;
+    }
+    header {
+        position: sticky;
+        width: 100%;
+    }
+    #definition {
+        padding: 0;
+        text-align: center;
+        height: 100vh;
+    }
+    #definition h2{
+        font-size: 40px;
+    }
+    #definition svg{
+        padding: 40px 0;
+    }
+    #principles {
+        text-align: center;
+        margin: 0;
+        grid-template-areas:
+        "a a a "
+        "b b b"
+        "c c c"
+        "d d d";
+    }
+    #p1, #p2, #p3, #p4{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    #p2 {
+        border-bottom: none;
+    }
+    #p1 h2 {
+        font-size: 40px;
+    }
+    main {
+        width: 90%;
+        margin: auto;
+    }
+    #ytplayer {
+        text-align: center;
+    }
+    #ytplayer iframe {
+        left: 15px;
+        width: 90%;
+    }
+}
 
 
 
