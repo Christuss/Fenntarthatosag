@@ -178,15 +178,14 @@ iframe {
     z-index: 1000;
 }
 #shape {
-    margin-left: 25%;
-    border: 400px solid;
+    border: 200px solid;
     border-radius: 47% 53% 53% 47% / 65% 46% 54% 35%;
     border-color: #5CB270;
     width: 0;
     height: 0;
     position: absolute;
     top: 50px;
-    left: -300px;
+    left: 100px;
     animation: spin 20s linear infinite;
 }
 
@@ -272,9 +271,26 @@ iframe {
     background-image: url("media/chevron-right-filled.svg");
     mask-repeat: no-repeat;
 }
-
-
-
+footer {
+    text-align: center;
+    padding-top: 100px;
+}
+footer img {
+    max-width: 80px;
+    filter: sepia(100%);
+}
+@media screen and (max-width:1000px) {
+    .landing {
+        display: none;
+    }
+    #ytplayer {
+        text-align: center;
+    }
+    #ytplayer iframe {
+        left: 40px;
+        width: 90%;
+    }
+}
 @media screen and (max-width:800px) {
     body { 
         margin: auto;
@@ -322,11 +338,18 @@ iframe {
         width: 90%;
         margin: auto;
     }
+    #shape {
+        border: 150px solid;
+        border-color: #5CB270;
+        margin: 0;
+        left: 0px;
+        top: 125px;
+    }
     #ytplayer {
         text-align: center;
     }
     #ytplayer iframe {
-        left: 15px;
+        left: 25px;
         width: 90%;
     }
 }
