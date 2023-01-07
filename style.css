@@ -108,7 +108,10 @@ p{
     height: 30vh;
 }
 
-
+#definition img{
+    height: 4   0vh;
+    padding: 10vh;
+}
 
 #definition:hover #windmill{
     transform-box: fill-box;
@@ -162,6 +165,16 @@ p{
     margin-right: 5vh;
 }
 
+#recommendations{
+    margin: auto;
+    width: 50%;
+    margin-top: 20vh;
+}
+
+#recommendations li{
+    font-size: 1.5em;
+}
+
 #ytplayer {
     padding-top: 300px;
     padding-bottom: 300px;
@@ -204,7 +217,6 @@ iframe {
 }
 
 #galery{
-    
     margin-top: 10vh;
     display: grid;
     width: 1000px;
@@ -213,7 +225,20 @@ iframe {
     max-height: 1000px;
     margin: auto;
     text-align: center;
+    font-size: 1.2em;
 }
+
+
+
+#galery a{
+    text-decoration: none;
+    color: #f4a259;
+}
+
+#galery a:hover{
+    font-weight: bold;
+}
+
 .galery_img{
     padding: 3px;
 }
