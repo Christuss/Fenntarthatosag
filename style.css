@@ -221,8 +221,13 @@ iframe {
 #galery img{
     transition: box-shadow .5s;
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.smallimg{
+    height: 87%;
 }
 
 #galery img:hover{
