@@ -1418,21 +1418,21 @@
                 </iframe>
                 <div id="shape"></div>
             </div>
-
+            <h2 id="galcim">Cikkek, hírek a fenntarthatóságról:</h2>
             <div id="galery">
-                    <img id="img1" class="galery_img" src="media/gray1green1.png" alt="new1">
-                    <img id="img2" class="galery_img" src="media/green1.jpeg" alt="new2">
-                    <img id="img3" class="galery_img" src="media/greycity2.png" alt="new3">
-                <div class="galery_control">
-                    <div id="arrow_left" onclick="plusDivs(-1)"></div>
-                    <div id="arrow_right" onclick="plusDivs(1)"></div>
-                </div>
+                <div class="galery_img it0"><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank"><img src="media/gray1green1.png" alt="new1"></a></div>
+                <div class="galery_img it1"><a href=""><img src="media/green1.jpeg" alt="new2"></a></div>
+                <div class="galery_img it2"><a href=""><img src="media/greycity2.png" alt="new3"></a></div>
+                <div class="galery_img it3"><a href=""><img src="media/greycity2.png" alt="a"></a></div>
+                <div class="galery_img it4"><a href=""><img src="media/green1.jpeg" alt="a"></a></div>
+                <div class="galery_img it5"><a href=""><img src="media/greycity2.png" alt="a"></a></div>
             </div>
         </article>
-        <!-- <div id="backtotop">
-            <a href="#">Vissza a tetejére</a></div>
-            <button title="backttbtn" id="backttbtn" onclick="window.location.href='#'";></button>
-        </div> -->
+        <div id="backtotop">
+            <a href="#">Vissza a tetejére
+                <button title="backttbtn" id="backttbtn" onclick="window.location.href='#'";></button>
+            </a>
+        </div>
     </main>
     <footer>
         <img src="media/globe_logo.svg" alt="">
@@ -1444,33 +1444,6 @@
             var finalvalue = "rect(0px, " + currentposition.toString() + "px,1080px,0px)";
 
             document.getElementById("greeenpng").style.clip = finalvalue;
-        }
-
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function currentDiv(n) {
-            showDivs(slideIndex = n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("galery_img");
-            if (n > x.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = x.length
-            }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
-            
         }
     </script>
 </body>
