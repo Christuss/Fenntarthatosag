@@ -325,6 +325,13 @@ footer {
     text-align: center;
     padding-top: 100px;
 }
+article {
+    text-align: center;
+}
+article img {
+    width: 80%;
+    padding: 0;
+}
 
 footer img {
     max-width: 80px;
@@ -347,6 +354,9 @@ footer img {
     }
     article img {
         width: 80%;
+        padding: 0;
+    }
+    #definition img{
         padding: 0;
     }
 }
@@ -421,16 +431,4 @@ footer img {
     #galery div {
         padding-bottom: 100px;
     }
-    
-    article {
-        text-align: center;
-    }
-    article img {
-        width: 80%;
-        padding: 0;
-    }
 }
-
-
-
-
