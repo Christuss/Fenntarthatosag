@@ -177,7 +177,6 @@ p{
 
 #ytplayer {
     padding-top: 300px;
-    padding-bottom: 300px;
     position: relative;
 }
 
@@ -187,7 +186,7 @@ iframe {
     width: 450px;
     height: 300px;
     position: absolute;
-    top: 300px;
+    top: 150px;
     left: 37%;
     z-index: 1000;
 }
@@ -290,7 +289,6 @@ iframe {
     margin-right: 3vw;
     margin-top: 5vh;
     position: sticky;
-    margin-top: 120vh;
     z-index: 10000;
     bottom: 50px;
     right: 50px;
