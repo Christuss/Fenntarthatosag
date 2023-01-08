@@ -341,6 +341,14 @@ footer img {
         left: 40px;
         width: 90%;
     }
+    #galery {
+        width: 100%;
+        height: 100%;
+    }
+    article img {
+        width: 80%;
+        padding: 0;
+    }
 }
 @media screen and (max-width:800px) {
     body { 
@@ -402,6 +410,24 @@ footer img {
     #ytplayer iframe {
         left: 25px;
         width: 90%;
+    }
+    #galcim {
+        font-size: 40px;
+    }
+    #galery {
+        width: 100%;
+        height: 100%;
+    }
+    #galery div {
+        padding-bottom: 100px;
+    }
+    
+    article {
+        text-align: center;
+    }
+    article img {
+        width: 80%;
+        padding: 0;
     }
 }
 
