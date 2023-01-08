@@ -109,8 +109,9 @@ p{
 }
 
 #definition img{
-    height: 40vh;
     padding: 10vh;
+    height: 40vh;
+    width: 60vh;
 }
 
 #definition:hover #windmill{
